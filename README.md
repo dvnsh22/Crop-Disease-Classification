@@ -6,7 +6,7 @@
 Dataset used: https://www.kaggle.com/c/plant-pathology-2020-fgvc7/data <br /><br />
 Steps involved during implementation of the project are as follows:
 <ol>
-<li> Using the <i>train.csv</i> file, the images have been categorized into the 4 different classes (<i>healthy</i>, <i>scab</i>, <i>rust</i>, <i>multiple diseases</i>), and further divided into training, testing and validation sets. </li>
+<li> Using the <i>train.csv</i> file provided with dataset, the images have been categorized into the 4 different classes (<i>healthy</i>, <i>scab</i>, <i>rust</i>, <i>multiple diseases</i>), and further divided into training, testing and validation sets. </li>
 <li> Transfer Learning approach has been used to train the model where pre-trained weights of ImageNet have been used and then, five neural network layers have been added to it. </li>
 <li> The trained model has been saved with the name <i>crop_disease.h5</i> after performing 10 epochs. </li>
 <li> The model has been tested against 10 random images from the testing set and its class predictions have been displayed. </li>
